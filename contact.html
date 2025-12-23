@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Anaab Kingsley</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">AK</a>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><button id="themeToggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-title">Get In <span class="highlight">Touch</span></h1>
+            <p class="page-subtitle">Let's discuss your project and how I can help bring your ideas to life</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <p>Feel free to reach out for project inquiries, collaborations, or just to say hello!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Email</h3>
+                                <a href="mailto:kingsleyanaab604@gmail.com">kingsleyanaab604@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>WhatsApp</h3>
+                                <a href="https://wa.me/233501901401" target="_blank" class="whatsapp-link">+233 501 901 401</a>
+                                <p class="whatsapp-note"><small>Click to message me directly on WhatsApp</small></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Phone Call</h3>
+                                <a href="tel:+233501901401">+233 501 901 401</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Location</h3>
+                                <p>Burma Camp, Ghana</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Availability</h3>
+                                <p>Monday - Friday: 9am - 6pm</p>
+                                <p>Weekends: By appointment</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="direct-contact-buttons">
+                        <h3>Quick Contact</h3>
+                        <div class="direct-buttons">
+                            <a href="https://wa.me/233501901401?text=Hello%20Anaab%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project." 
+                               target="_blank" class="btn btn-whatsapp">
+                                <i class="fab fa-whatsapp"></i> Message on WhatsApp
+                            </a>
+                            <a href="tel:+233501901401" class="btn btn-outline">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="social-contact">
+                        <h3>Connect on Social Media</h3>
+                        <div class="social-links-large">
+                            <a href="https://github.com/kingsley604" class="social-link-large">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://linkedin.com/in/kingsley604" class="social-link-large">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://twitter.com/kingsley604" class="social-link-large">
+                                <i class="fab fa-twitter"></i>
+                                <span>Twitter</span>
+                            </a>
+                            <a href="https://instagram.com/kingsley604" class="social-link-large">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send Me a Message</h2>
+                    <p>Fill out the form below and I'll get back to you as soon as possible</p>
+                    
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required placeholder="What is this regarding?">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell me about your project or inquiry"></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="frontend">Front-End Development</option>
+                                <option value="ecommerce">E-commerce Website</option>
+                                <option value="responsive">Responsive Design</option>
+                                <option value="redesign">Website Redesign</option>
+                                <option value="landing">Landing Page</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="preferWhatsApp" name="preferWhatsApp">
+                            <label for="preferWhatsApp">Prefer WhatsApp response</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Send Message via WhatsApp
+                        </button>
+                        
+                        <div class="form-notice">
+                            <p><small>* Required fields. Messages will be sent via WhatsApp for immediate response.</small></p>
+                        </div>
+                    </form>
+                    
+                    <div id="formMessage" class="form-message"></div>
+
+                    <div class="alternative-contact">
+                        <h3>Alternative Contact Methods</h3>
+                        <div class="alternative-buttons">
+                            <a href="mailto:kingsleyanaab604@gmail.com?subject=Project Inquiry&body=Hello Anaab,%0D%0A%0D%0AI would like to discuss:" class="btn btn-outline">
+                                <i class="fas fa-envelope"></i> Send Email
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Contact -->
+    <section class="section contact-faq">
+        <div class="container">
+            <h2 class="section-title">Common <span class="highlight">Questions</span></h2>
+            <div class="faq-contact">
+                <div class="faq-item-contact">
+                    <h3>What's the fastest way to reach you?</h3>
+                    <p>WhatsApp is the fastest way to get in touch. I typically respond within 1-2 hours during business hours. For urgent matters, you can also call me directly.</p>
+                </div>
+                <div class="faq-item-contact">
+                    <h3>Do you respond to WhatsApp messages?</h3>
+                    <p>Yes! I actively respond to WhatsApp messages. You can click the WhatsApp button above or simply message me at +233 501 901 401.</p>
+                </div>
+                <div class="faq-item-contact">
+                    <h3>What information should I provide?</h3>
+                    <p>When contacting me about a project, please include details about your business, project goals, target audience, budget, and timeline. The more information you provide, the better I can help.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta">
+        <div class="container">
+            <h2>Let's Build Something Amazing Together</h2>
+            <p>Ready to transform your ideas into a stunning website?</p>
+            <a href="https://wa.me/233501901401?text=Hello%20Anaab%2C%20I%27d%20like%20to%20discuss%20a%20website%20project." 
+               target="_blank" class="btn btn-whatsapp">
+                <i class="fab fa-whatsapp"></i> Message on WhatsApp
+            </a>
+            <a href="tel:+233501901401" class="btn btn-primary">
+                <i class="fas fa-phone"></i> Call Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <a href="index.html" class="logo">AK</a>
+                    <p>Front-End Developer specializing in responsive web design and e-commerce solutions.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/kingsley604"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/kingsley99"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/99.kingsley_"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> kingsleyanaab604@gmail.com</li>
+                        <li><i class="fab fa-whatsapp"></i> +233 501 901 401</li>
+                        <li><i class="fas fa-phone"></i> +233 501 901 401</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Burma Camp</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Anaab Kingsley. All rights reserved.</p>
+                <p>Front-End Developer | Web Developer</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
